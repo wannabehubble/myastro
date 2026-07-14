@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern astrophotography gallery showcasing the cosmos from a backyard observatory." />
+  <title>Cosmos From My Backyard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-layer"></div>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand-text"></span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+      <span class="sr-only">Toggle menu</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav">
+      <a href="#home" class="active">HOME</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#gear">INSTRUMENTS</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <h1>THE COSMOS<br><span>FROM MY BACKYARD</span></h1>
+        <p class="hero-copy">
+          captured one exposure at a time.
+        </p>
+        <a class="primary-link" href="#gallery">EXPLORE</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section content-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>GALLERY</h2>
+      </div>
+
+      <div class="mosaic" id="mosaic">
+        <button class="gallery-card tall reveal" data-title="Orion Nebula" data-description="A luminous stellar nursery approximately 1,300 light-years away, captured across multiple nights." data-image="assets/15hrs_RGBHa.jpg">
+          <img src="assets/15hrs_RGBHa.jpg" alt="Abstract placeholder for the Orion Nebula" />
+          <span class="card-label"><strong>IC 2177</strong><small>SEAGULL NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/27hrs_RGBHa_WIP.jpg">
+          <img src="assets/27hrs_RGBHa_WIP.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>NGC 2264</strong><small>CONE NEBULA</small></span>
+        </button>
+        <button class="gallery-card square reveal" data-title="Veil Nebula" data-description="Delicate filaments of ionized gas from an ancient supernova remnant in Cygnus." data-image="assets/barnard33_final_27hrs_RGBHa_V2_crop.jpg">
+          <img src="assets/barnard33_final_27hrs_RGBHa_V2_crop.jpg" alt="Abstract placeholder for the Veil Nebula" />
+          <span class="card-label"><strong>BARNARD 33</strong><small>HORSEHEAD NEBULA</small></span>
+        </button>
+        <button class="gallery-card tall reveal" data-title="Horsehead Nebula" data-description="A dark pillar of dust silhouetted against glowing hydrogen emission in Orion." data-image="assets/RGBHaSii_25.5hrs_final_V6.jpg">
+          <img src="assets/RGBHaSii_25.5hrs_final_V6.jpg" alt="Abstract placeholder for the Horsehead Nebula" />
+          <span class="card-label"><strong>NGC 281</strong><small>PAC-MAN NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="The Pleiades" data-description="A brilliant open cluster wrapped in wispy blue reflection nebulosity." data-image="assets/sh2-140_16hrs_finalv2_11-24-24.jpg">
+          <img src="assets/sh2-140_16hrs_finalv2_11-24-24.jpg" alt="Abstract placeholder for the Pleiades star cluster" />
+          <span class="card-label"><strong>SH2-140</strong><small>THE LITTLE CLAMSHELL NEBULA</small></span>
+        </button>
+        <button class="gallery-card landscape reveal" data-title="Rosette Nebula" data-description="A vast circular emission nebula sculpted by the energetic stars at its core." data-image="assets/34hrs_RGBHa.jpg">
+          <img src="assets/34hrs_RGBHa.jpg" alt="Abstract placeholder for the Rosette Nebula" />
+          <span class="card-label"><strong>SH2-264</strong><small>ANGELFISH NEBULA</small></span>
+        </button>
+        <button class="gallery-card tall reveal" data-title="North America Nebula" data-description="Hydrogen-rich clouds in Cygnus, rendered in a dramatic narrowband palette." data-image="assets/RGBHaSII_42hrs_V2.jpg">
+          <img src="assets/RGBHaSII_42hrs_V2.jpg" alt="Abstract placeholder for the North America Nebula" />
+          <span class="card-label"><strong>IC 417</strong><small>SPIDER NEBULA</small></span>
+        </button>
+        <button class="gallery-card square reveal" data-title="Lunar Mosaic" data-description="A high-resolution lunar portrait assembled from multiple video panels." data-image="assets/Soul_25hrs_RGBSiiHa_v2.jpg">
+          <img src="assets/Soul_25hrs_RGBSiiHa_v2.jpg" alt="Abstract placeholder for a lunar mosaic" />
+          <span class="card-label"><strong>IC 1848</strong><small>SOUL NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/space-background.jpg">
+          <img src="assets/space-background.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>SH2-108</strong><small>NIAGARA FALLS NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/sh2-135_22hrs_finalv1_11-26-24.jpg">
+          <img src="assets/sh2-135_22hrs_finalv1_11-26-24.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>SH2-135</strong><small></small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/vdB_158_23hrs_LRGB.jpg">
+          <img src="assets/vdB_158_23hrs_LRGB.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>VDB-158</strong><small>CHECK MARK NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/M101_67hrs_LRGBHa_crop_1.jpg">
+          <img src="assets/M101_67hrs_LRGBHa_crop_1.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>M101</strong><small>PINWHEEL GALAXY</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/NGC_2841_LRGB_25hrs_final_crop.jpg">
+          <img src="assets/NGC_2841_LRGB_25hrs_final_crop.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>NGC 2841</strong><small>FLOCCULANT SPIRAL GALAXY</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/M108_63hrs_LRGBHaOiii_V3.jpg">
+          <img src="assets/M108_63hrs_LRGBHaOiii_V3.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>M108/97</strong><small>SURFBOARD GALAXY AND OWL NEBULA</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/M33_LRGBHaOIII_final_V3.jpg">
+          <img src="assets/M33_LRGBHaOIII_final_V3.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>M33</strong><small>TRIANGULUM GALAXY</small></span>
+        </button>
+        <button class="gallery-card wide reveal" data-title="Andromeda Galaxy" data-description="Our nearest large galactic neighbor, photographed as a wide-field mosaic with faint outer dust lanes preserved." data-image="assets/LRGB_24hrs_crop2.jpg">
+          <img src="assets/LRGB_24hrs_crop2.jpg" alt="Abstract placeholder for the Andromeda Galaxy" />
+          <span class="card-label"><strong>M65/66 AND NGC 3628</strong><small>LEO'S TRIPLET</small></span>
+        </button>
+      </div>
+    </section>
+
+    <section id="gear" class="section content-section">
+      <div class="section-heading reveal">
+        <h2>INSTRUMENTS</h2>
+        <p>The gear behind the photographs.</p>
+      </div>
+
+      <div class="gear-grid">
+        <article class="gear-card reveal">
+          <img src="assets/1000014917_1.jpg" alt="Telescope equipment placeholder" />
+          <div><span></span><h3>Orion 8" f3.9 Newtonian</h3><p>A highly modified Synta Newtonian, featuring a CYCK R&P Focuser and CNC Spider. This scope offers 800mm's of FL at a speedy f4 focal ratio.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/1000013421_1.jpg" alt="Equatorial mount placeholder" />
+          <div><span></span><h3>Esprit 80 ED APO</h3><p>A widefield 80mm refractor, excellent for massive targets like M31, or NGC7000 with it's 400mm's of FL.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/DSC02487_1.jpg" alt="Astrophotography camera placeholder" />
+          <div><span></span><h3>DSI RC10C</h3><p>A beautiful instrument, equipped with Star Instruments' 250mm 1/20th wave mirrors that bring it to an intimidating 1854mm's of FL. Fantastic for small galaxies and planetary nebulae.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/1000014595_1.jpg" alt="Astronomy filters placeholder" />
+          <div><span></span><h3>William Optics FLT120 APO</h3><p>This 120mm refractor, for many of the projects above, was ran side by side the Orion 8" f3.9, enabling twice the data to be collected. It's similar focal length provided a great match in FOV.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/imx571_1.jpg" alt="Astronomy filters placeholder" />
+          <div><span></span><h3>ZWO ASI2600MM Pro</h3><p>The IMX 571 offers an expansive sensor area with incredible deep sky imaging performance while not breaking the bank. It even accepts 36mm unmounted filters.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/imx585_1.jpg" alt="Astronomy filters placeholder" />
+          <div><span></span><h3>Player One Uranus C</h3><p>The IMX 585 is a fantastic sensor for lunar, planetary, or solar imaging. It's high sensitivity and framerate allow more effective lucky imaging.</p></div>
+        </article>
+        <article class="gear-card reveal">
+          <img src="assets/DSC02490_1.jpg" alt="Astronomy filters placeholder" />
+          <div><span></span><h3>Skywatcher EQ6R Pro</h3><p>The EQ6R from Skywatcher remains one of the best value EQ mounts in the used market. Offering 44lbs of payload capacity, periodic error correction, robust mechanics, belt driven for less backlash, and extensive community support.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section content-section about-section">
+      <div class="about-layout">
+        <div class="about-image reveal">
+          <img src="assets/1000015979.jpg" alt="Portrait placeholder" />
+        </div>
+        <div class="about-copy reveal">
+          <h2>ABOUT</h2>
+          <h3>Chasing ancient light from a familiar place.</h3>
+          <p>
+            I am a professional photographer by day and an amateur astrophotographer by night.
+          </p>
+          <p>
+            I had always had an appreciation of space, but only to the level of, "Oh cool, I can see some stars in the sky", with no idea of the hidden world that lies outside of our light polluted earth. That all changed one night in 2021. I went outside after dark with my 18-55mm kit lens, just messing around seeing how many stars I could capture, when I noticed a fuzzy patch while zooming in to the raw image. This turned out to be the Andromeda Galaxy, and well... The rest is history.
+            </p>
+          <p>
+          "We are a way for the universe to know itself." - Carl Sagan, Cosmos
+          </p>
+          <div class="about-signature">ZACHARY EICHELBERGER <span>ASTROPHOTOGRAPHER</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> WANNABEHUBBLE</span>
+    <span>THE COSMOS FROM MY BACKYARD</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close image">×</button>
+    <div class="lightbox-media"><img src="" alt="" /></div>
+    <div class="lightbox-info">
+      <p class="eyebrow">IMAGE DETAILS</p>
+      <h3></h3>
+      <p class="lightbox-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

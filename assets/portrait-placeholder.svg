@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2130"/><stop offset="1" stop-color="#08090d"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7bdcff" stop-opacity=".45"/><stop offset="1" stop-color="#7bdcff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<circle cx="450" cy="420" r="330" fill="url(#halo)"/>
+<circle cx="450" cy="360" r="135" fill="#2d313a"/>
+<path d="M180 1010 C210 650,690 650,720 1010" fill="#242933"/>
+<g fill="white" opacity=".75">
+<circle cx="90" cy="120" r="2"/><circle cx="760" cy="180" r="3"/><circle cx="690" cy="70" r="1.5"/>
+<circle cx="150" cy="420" r="2"/><circle cx="790" cy="520" r="2.5"/>
+</g>
+<text x="450" y="1045" text-anchor="middle" fill="white" opacity=".6" font-family="Arial" font-size="18" letter-spacing="6">REPLACE WITH YOUR PORTRAIT</text>
+</svg>
